@@ -1,6 +1,7 @@
+
 body{
     background-image: url('../images/background.png');
-    
+   
 }
 
 .navbar {
@@ -8,9 +9,28 @@ body{
     border-bottom: 2px solid #ccc;
 
 }
-.container-main{
-    border: 1px solid #ccc;
+.navbar-brand {
 
+    height:100%; 
+    background-color: #4aaaa5;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+}
+
+.container-main {
+    border: 1px solid #ccc;
+    
+}
+
+.container-fluid-main{
+    min-height: calc(100vh - 70px);
+}
+
+.about {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color: #4aaaa5;
+    font-weight: 700;
+    border-bottom: 2px solid #ccc;
 }
 
 p{
@@ -18,4 +38,12 @@ p{
     font-size: 18px;
     line-height: 34px;
     color: #777;
+}
+
+footer {
+    border-top: 8px solid #4aaaa5;
+    height: 50px;
+    padding: 30px 0;
+    text-align: center;
+    color: #ccc;
 }
